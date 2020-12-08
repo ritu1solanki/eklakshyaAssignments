@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cal</title>
+    </head>
+    <body>
+      <table cellpadding="10"   border="1">
+          <form>
+           <tr >
+           <td   colspan="4"> <input name="result"   type="textarea"  placeholder="calculator">  </td>
+
+           </tr>
+           
+            <br><br>
+            <tr>
+           <td> <input type="button" value=" c " /></td>
+           <td> <input type="button" value=" + "  /></td>
+           <td><input type="button" value=" % "  /></td>
+            <td> <input type="button" value=" / "  /></td>
+          </tr>
+            <br><br>
+            
+            <tr>
+              <td> <input type="button" value=" 4 " /></td>
+              <td> <input type="button" value=" 5 "  /></td>
+              <td><input type="button" value=" 6 "  /></td>
+               <td> <input type="button" value=" - "  /></td>
+             </tr>
+            <br><br>
+          
+            <tr>
+              <td> <input type="button" value=" 7 " name="num7" /></td>
+              <td> <input type="button" value=" 8 " name="num8"  /></td>
+              <td><input type="button" value=" 9 " name="num9" /></td>
+               <td> <input type="button" name="mul" value=" * " onclick="result.value=num7.value* num8.value" /></td>
+             </tr>
+            <br><br>
+            <tr>
+              <td> <input type="button" value=" 1 " /></td>
+              <td> <input type="button" value=" 0 "  /></td>
+              <td><input type="button" value=" . "  /></td>
+               <td> <input type="button" value=" = " /></td>
+             </tr>
+            
+          </form>
+        </table>
+    </body>
+</html>
