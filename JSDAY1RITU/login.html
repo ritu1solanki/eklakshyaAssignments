@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       let usernames=["ritu","binita","aman","tom","john"]
+       let flag=1;
+
+         const name=prompt("Enter Your Name") 
+         
+         for(let i=0;i<usernames.length;i++)
+        {
+             if(name==usernames[i])
+            {   
+               
+                flag=0
+                break
+            }
+            else{
+                flag=1;
+              
+            }
+
+
+
+         }
+         if(flag==0)
+         {
+            document.write("Welcome  "+ name);
+         }
+         else{
+            document.write("Wrong user");
+         }
+         
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
